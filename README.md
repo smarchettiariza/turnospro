@@ -32,6 +32,7 @@ Frontend
 
 🎯 React Icons
 
+
 ✨ Funcionalidades
 
 ✅ Registro de usuarios
@@ -138,7 +139,9 @@ frontend/
  │   └── App.js
 
 
- 
+
+
+
 Autor
 
 Santiago Marchetti Ariza
