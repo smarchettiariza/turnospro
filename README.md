@@ -116,7 +116,9 @@ El sistema utiliza:
 JWT Token
 Spring Security
 Passwords encriptadas con BCrypt
+
 📂 Estructura del proyecto
+
 backend/
  ├── controller/
  ├── model/
