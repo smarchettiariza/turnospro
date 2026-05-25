@@ -131,8 +131,9 @@ frontend/
  │   ├── api.js
  │   └── App.js
 
+
  
-👨‍💻 Autor
+Autor
 
 Santiago Marchetti Ariza
 
