@@ -5,6 +5,7 @@ Sistema web de gestión de turnos médicos desarrollado con Spring Boot + React.
 Permite registrar usuarios, iniciar sesión con autenticación JWT y administrar turnos de manera segura, donde cada usuario solo puede visualizar y gestionar sus propios turnos.
 
 🚀 Tecnologías utilizadas
+
 Backend
 
 ☕ Java 17
@@ -34,13 +35,21 @@ Frontend
 ✨ Funcionalidades
 
 ✅ Registro de usuarios
+
 ✅ Inicio de sesión seguro con JWT
+
 ✅ Logout
+
 ✅ Protección de rutas
+
 ✅ CRUD completo de turnos
+
 ✅ Cada usuario ve únicamente sus turnos
+
 ✅ Selección de médicos desde una lista
+
 ✅ Navbar dinámica con usuario logueado
+
 ✅ Diseño responsive y moderno
 
 📸 Capturas
