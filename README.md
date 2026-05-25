@@ -47,6 +47,7 @@ Gestión de turnos
 
 
 ⚙ Instalación
+
 1️⃣ Clonar repositorio
 git clone https://github.com/smarchettiariza/turnospro.git
 🔧 Backend
@@ -105,16 +106,13 @@ frontend/
  │   ├── pages/
  │   ├── api.js
  │   └── App.js
+
+ 
 👨‍💻 Autor
+
 Santiago Marchetti Ariza
 
 Estudiante de Desarrollo de Aplicaciones Informáticas
 Apasionado por el desarrollo web y móvil 🚀
-
-GitHub:
-
-https://github.com/smarchettiariza
-
-📄 Licencia
 
 Proyecto educativo y personal.
