@@ -68,9 +68,10 @@ Gestión de turnos
 <img width="1715" height="406" alt="image" src="https://github.com/user-attachments/assets/48c102b9-5f2f-45ca-8c4e-8012b25100ae" />
 
 
+
 ⚙ Instalación
 
-1️⃣ Clonar repositorio
+Clonar repositorio
 git clone https://github.com/smarchettiariza/turnospro.git
 🔧 Backend
 Entrar al backend
