@@ -6,18 +6,31 @@ Permite registrar usuarios, iniciar sesión con autenticación JWT y administrar
 
 🚀 Tecnologías utilizadas
 Backend
+
 ☕ Java 17
+
 🌱 Spring Boot
+
 🔐 Spring Security + JWT
+
 🗄 PostgreSQL
+
 🧩 JPA / Hibernate
+
 📦 Maven
+
 Frontend
+
 ⚛ React
+
 🛣 React Router DOM
+
 🎨 Bootstrap
+
 🔗 Axios
+
 🎯 React Icons
+
 ✨ Funcionalidades
 
 ✅ Registro de usuarios
