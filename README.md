@@ -53,6 +53,7 @@ Frontend
 ✅ Diseño responsive y moderno
 
 📸 Capturas
+
 Login
 
 <img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/9d6824fc-5b4e-44c3-b228-cfc39fe79c1a" />
