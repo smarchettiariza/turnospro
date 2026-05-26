@@ -63,13 +63,19 @@
 ## 📸 Capturas de pantalla
 
 ### 🔑 Login
-> *Agregá acá una captura de tu pantalla de login*
+
+<img width="482" height="505" alt="image" src="https://github.com/user-attachments/assets/bab227da-c233-4b81-89cb-5b53376f07b8" />
+
 
 ### 📝 Registro
-> *Agregá acá una captura de tu pantalla de registro*
+
+<img width="1896" height="558" alt="image" src="https://github.com/user-attachments/assets/1bbad994-2a83-4f6a-8d7b-cd9cff487e04" />
+
 
 ### 📅 Gestión de Turnos
-> *Agregá acá una captura de tu panel de turnos*
+
+<img width="1364" height="375" alt="image" src="https://github.com/user-attachments/assets/461b24e0-df69-4bfc-8004-dbb3efda7619" />
+
 
 ---
 
