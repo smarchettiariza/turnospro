@@ -1,152 +1,202 @@
-🩺 TurnosPro
+<div align="center">
 
-Sistema web de gestión de turnos médicos desarrollado con Spring Boot + React.
+# 🩺 TurnosPro
 
-Permite registrar usuarios, iniciar sesión con autenticación JWT y administrar turnos de manera segura, donde cada usuario solo puede visualizar y gestionar sus propios turnos.
+**Sistema web de gestión de turnos médicos**
 
-🚀 Tecnologías utilizadas
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-Backend
+*Aplicación full-stack para la gestión segura de turnos médicos con autenticación JWT*
 
-☕ Java 17
+</div>
 
-🌱 Spring Boot
+---
 
-🔐 Spring Security + JWT
+## 📌 Descripción
 
-🗄 PostgreSQL
+**TurnosPro** es una aplicación web full-stack que permite a los pacientes registrarse, iniciar sesión y gestionar sus turnos médicos de forma segura. El sistema implementa autenticación con **JWT** y garantiza que cada usuario solo puede acceder y administrar sus propios datos.
 
-🧩 JPA / Hibernate
+---
 
-📦 Maven
+## 🚀 Tecnologías
 
-Frontend
+### Backend
+| Tecnología | Descripción |
+|---|---|
+| ☕ Java 17 | Lenguaje principal |
+| 🌱 Spring Boot | Framework de aplicación |
+| 🔐 Spring Security + JWT | Autenticación y autorización |
+| 🗄 PostgreSQL | Base de datos relacional |
+| 🧩 JPA / Hibernate | ORM para persistencia |
+| 📦 Maven | Gestión de dependencias |
 
-⚛ React
+### Frontend
+| Tecnología | Descripción |
+|---|---|
+| ⚛ React | Biblioteca de UI |
+| 🛣 React Router DOM | Navegación y rutas |
+| 🎨 Bootstrap | Estilos y diseño responsive |
+| 🔗 Axios | Cliente HTTP |
+| 🎯 React Icons | Librería de íconos |
 
-🛣 React Router DOM
+---
 
-🎨 Bootstrap
+## ✨ Funcionalidades
 
-🔗 Axios
+- ✅ Registro de nuevos usuarios
+- ✅ Inicio de sesión seguro con JWT
+- ✅ Logout con invalidación de sesión
+- ✅ Protección de rutas privadas
+- ✅ CRUD completo de turnos médicos
+- ✅ Aislamiento de datos por usuario (cada uno ve únicamente sus turnos)
+- ✅ Selección de médicos desde una lista
+- ✅ Navbar dinámica con información del usuario logueado
+- ✅ Diseño responsive y moderno
 
-🎯 React Icons
+---
 
+## 📸 Capturas de pantalla
 
-✨ Funcionalidades
+### 🔑 Login
+> *Agregá acá una captura de tu pantalla de login*
 
-✅ Registro de usuarios
+### 📝 Registro
+> *Agregá acá una captura de tu pantalla de registro*
 
-✅ Inicio de sesión seguro con JWT
+### 📅 Gestión de Turnos
+> *Agregá acá una captura de tu panel de turnos*
 
-✅ Logout
+---
 
-✅ Protección de rutas
+## ⚙️ Instalación y configuración
 
-✅ CRUD completo de turnos
+### Prerrequisitos
 
-✅ Cada usuario ve únicamente sus turnos
+- Java 17+
+- Node.js 16+
+- PostgreSQL
+- Maven
 
-✅ Selección de médicos desde una lista
+---
 
-✅ Navbar dinámica con usuario logueado
+### 1️⃣ Clonar el repositorio
 
-✅ Diseño responsive y moderno
-
-📸 Capturas
-
-Login
-
-<img width="800" height="650" alt="image" src="https://github.com/user-attachments/assets/9d6824fc-5b4e-44c3-b228-cfc39fe79c1a" />
-
-
-Registro
-
-<img width="1896" height="558" alt="image" src="https://github.com/user-attachments/assets/1914227b-be2c-440b-b309-37e67e48fbf8" />
-
-
-Gestión de turnos
-
-<img width="1715" height="406" alt="image" src="https://github.com/user-attachments/assets/48c102b9-5f2f-45ca-8c4e-8012b25100ae" />
-
-
-
-⚙ Instalación
-
-Clonar repositorio
+```bash
 git clone https://github.com/smarchettiariza/turnospro.git
-🔧 Backend
-Entrar al backend
+cd turnospro
+```
+
+---
+
+### 🔧 Backend
+
+**1. Entrar a la carpeta del backend:**
+```bash
 cd backend
-Configurar PostgreSQL
+```
 
-Crear una base de datos llamada:
+**2. Crear la base de datos en PostgreSQL:**
+```sql
+CREATE DATABASE turnospro;
+```
 
-turnospro
-
-Editar:
-
-src/main/resources/application.properties
-
-Con tus datos:
-
+**3. Configurar las credenciales en `src/main/resources/application.properties`:**
+```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/turnospro
 spring.datasource.username=postgres
 spring.datasource.password=TU_PASSWORD
-Ejecutar backend
+```
+
+**4. Ejecutar el servidor:**
+```bash
 mvn spring-boot:run
+```
 
-Servidor:
+El backend quedará disponible en: `http://localhost:8080`
 
-http://localhost:8080
-💻 Frontend
-Entrar al frontend
+---
+
+### 💻 Frontend
+
+**1. Entrar a la carpeta del frontend:**
+```bash
 cd frontend
-Instalar dependencias
+```
+
+**2. Instalar dependencias:**
+```bash
 npm install
-Ejecutar proyecto
+```
+
+**3. Ejecutar la aplicación:**
+```bash
 npm start
+```
 
-Aplicación:
+La aplicación quedará disponible en: `http://localhost:3000`
 
-http://localhost:3000
+---
 
-🔐 Autenticación
+## 🔐 Seguridad
 
-El sistema utiliza:
+El sistema implementa un esquema de seguridad robusto:
 
-JWT Token
+- **JWT Tokens** — Autenticación stateless con tokens firmados
+- **Spring Security** — Filtros y configuración de seguridad a nivel de API
+- **BCrypt** — Encriptación de contraseñas antes de persistirlas en base de datos
+- **Protección de rutas** — Las rutas del frontend requieren token válido para acceder
 
-Spring Security
+---
 
-Passwords encriptadas con BCrypt
+## 📂 Estructura del proyecto
 
+```
+turnospro/
+│
+├── backend/
+│   ├── controller/       # Endpoints REST
+│   ├── model/            # Entidades JPA
+│   ├── repository/       # Interfaces de acceso a datos
+│   ├── security/         # Configuración JWT y Spring Security
+│   └── service/          # Lógica de negocio
+│
+└── frontend/
+    └── src/
+        ├── components/   # Componentes reutilizables
+        ├── pages/        # Vistas principales
+        ├── api.js        # Configuración de Axios
+        └── App.js        # Componente raíz y rutas
+```
 
-📂 Estructura del proyecto
+---
 
-backend/
- ├── controller/
- ├── model/
- ├── repository/
- ├── security/
- └── service/
+## 👨‍💻 Autor
 
-frontend/
- ├── src/
- │   ├── components/
- │   ├── pages/
- │   ├── api.js
- │   └── App.js
+<div align="center">
 
-
-
-
-
-Autor
-
-Santiago Marchetti Ariza
+**Santiago Marchetti Ariza**
 
 Estudiante de Desarrollo de Aplicaciones Informáticas
-Apasionado por el desarrollo web y móvil 🚀
 
-Proyecto educativo y personal.
+*Apasionado por el desarrollo web y móvil 🚀*
+
+[![GitHub](https://img.shields.io/badge/GitHub-smarchettiariza-181717?style=for-the-badge&logo=github)](https://github.com/smarchettiariza)
+
+</div>
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de carácter **educativo y personal**. Libre para usar como referencia o inspiración.
+
+---
+
+<div align="center">
+  <sub>Desarrollado con ❤️ por Santiago Marchetti Ariza</sub>
+</div>
